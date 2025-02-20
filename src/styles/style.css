@@ -1,0 +1,153 @@
+/* Reset dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+  /* Gaya untuk aplikasi utama */
+.note-app {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  /* Gaya untuk form catatan */
+.note-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.note-form input,
+.note-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.note-form button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-form button:hover {
+    opacity: 0.9;
+}
+
+  /* Gaya untuk search bar */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+  /* Gaya untuk daftar catatan */
+.note-list,
+.archive {
+    margin-top: 20px;
+}
+
+.note-item {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.note-item h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.note-item p {
+    margin: 0;
+    color: #666;
+}
+
+.note-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.note-item button:hover {
+    opacity: 0.8;
+}
+
+.note-item button:nth-child(2) {
+    background-color: #ffc107;
+}
+
+.note-item button:nth-child(3) {
+    background-color: #dc3545;
+    color: white;
+}
+
+.archive {
+    margin-top: 30px;
+}
+
+  /* Gaya untuk bagian arsip */
+.archive h2 {
+    color: #555;
+    margin-top: 0;
+}
+
+.archive p {
+    text-align: center;
+    color: #888;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+  /* Gaya untuk bagian kosong */
+.note-list p,
+.archive p {
+    text-align: center;
+    color: #888;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.empty-state {
+    text-align: center;
+    color: #888;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
